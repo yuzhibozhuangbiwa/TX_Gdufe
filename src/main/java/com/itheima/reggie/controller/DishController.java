@@ -104,7 +104,7 @@ public class DishController {
 
         dishDtoPage.setRecords(list);
 
-        return R.success(pageInfo);
+        return R.success(dishDtoPage);
     }
 
 }

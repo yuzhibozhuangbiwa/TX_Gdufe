@@ -43,7 +43,7 @@ public class SetmealController {
     }
 
     @DeleteMapping
-    public R<String> delete(Long[] ids){
+    public R<String> delete(@RequestParam List<Long> ids){
 
         
 
